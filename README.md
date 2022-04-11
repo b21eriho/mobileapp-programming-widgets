@@ -1,19 +1,19 @@
+# Report
 
-# Rapport
+Created a textView inside the chosen Layout, constraintLayout.This textview was given a text to hold which wa also extracted into a string resource.
+It was further given a text-size that was very large and was anchored to the top left, to give it the appearance of a title. It was given a small margin
+and its size was set to wrap its content, it was also given an id.
 
-**Skriv din rapport här!**
+After this an image was created, set to fill the screen width-wise and hold a set height. Its content was set to a medium grey color which was also
+extracted to a color resource. It was set to lay beneath the title and given a small margin, it was also given an id. Due to its width being set to fill the 
+entire screen it wasn't needed to constrain it horizontally.
 
-_Du kan ta bort all text som finns sedan tidigare_.
+Lastly a button was created and given a text to hold which was also extracted to a color resource. It's width was set statically while its height was set
+to wrap its content. The size of the text was given in "sp" to have it resize according to user preference. Its top was constrained to the image's bottom
+and both its sides were constrained to the image's sides. Resulting in it being centered horizontally. It was given a sizeable margin to set it apart from
+the other views in the project. This might cause strange appearance if the text is set to be too large.
 
-## Följande grundsyn gäller dugga-svar:
-
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
-
-Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
+Below the source code for the button and a screenshot of the app are provided.
 
 ```
 <Button
