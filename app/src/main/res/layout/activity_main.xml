@@ -17,4 +17,12 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="24dp"/>
 
+    <ImageView
+        android:id="@+id/iamge"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:src="@color/Gray"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        android:layout_margin="16dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
