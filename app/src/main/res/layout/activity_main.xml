@@ -25,4 +25,15 @@
         app:layout_constraintTop_toBottomOf="@+id/text"
         android:layout_margin="16dp"/>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/iamge"
+        app:layout_constraintStart_toStartOf="@+id/iamge"
+        app:layout_constraintTop_toBottomOf="@+id/iamge"
+        android:layout_margin="64dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

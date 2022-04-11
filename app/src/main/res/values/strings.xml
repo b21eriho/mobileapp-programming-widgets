@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Widgets</string>
     <string name="place_holder">Some would call this a placeholder</string>
+    <string name="button_text">Hey</string>
 </resources>
